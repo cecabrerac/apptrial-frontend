@@ -1,0 +1,26 @@
+p {
+  margin-top: 0;
+}
+
+nb-radio-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nb-card-header h6 {
+  font-size: 0.9rem;
+}
+
+.alert {
+  color: rgb(255, 60, 60);
+  margin-left: 1.6rem;
+}
+
+.btnDespedida {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+}

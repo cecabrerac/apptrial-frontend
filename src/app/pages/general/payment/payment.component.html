@@ -1,0 +1,11 @@
+<nb-card class="form-input-card">
+    <nb-card-header>Return Result From Dialog</nb-card-header>
+    <nb-card-body class="result-from-dialog">
+        <button nbButton (click)="openVisa(true)">Visa Data</button>
+        <br>
+        <h6 class="title">Card Data in JSON:</h6>
+        <ul>
+            <li *ngFor="let datum of data">{{ data | json }}</li>
+        </ul>
+    </nb-card-body>
+</nb-card>

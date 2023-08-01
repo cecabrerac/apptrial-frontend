@@ -1,0 +1,10 @@
+<div class="messages-box">
+  <h4>{{"msg.title" | translate}}</h4>
+  <li *ngFor="let message of messages">{{message}}</li>
+</div>
+
+<form>
+  <input type="text" #newMessage name="newMessage" id="newMessage" placeholder="{{'msg.placeholder' | translate}}"
+    [(ngModel)]="formMessage">
+  <button (click)="sendMessage()">{{"msg.send" | translate}}</button>
+</form>
